@@ -7,11 +7,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-    "start": "node App.js",
-=======
-      "start": "node index.js",
->>>>>>> a1a48d2abd4a830f0bba5f7dfc1ed44fee7c24d4
+   "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
     
   },

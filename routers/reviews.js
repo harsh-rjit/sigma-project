@@ -3,7 +3,7 @@ const router = express.Router({mergeParams:true});
 const wrapAsync = require("../utils/wrapasync.js");
 const ExpressErr = require("../utils/ExpressErr.js");
 const Review = require("../models/review.js");
-const Listing = require("C:/Users/Lenovo/OneDrive/backend/Major Project/models/listing.js");
+const Listing = require("../models/listing");
 const {validateReview, isLoggedIn,isreviewauthor}= require("../middleware.js");
 
 const reviewcontroller = require("../controller/review.js")

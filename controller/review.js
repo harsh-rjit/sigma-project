@@ -1,6 +1,5 @@
 const Review = require("../models/review.js");
-const Listing = require("C:/Users/Lenovo/OneDrive/backend/Major Project/models/listing.js");
-
+const Listing = require("../models/listing");
 
 module.exports.CreateReview = async (req, res) => {
     let listing = await Listing.findById(req.params.id);
